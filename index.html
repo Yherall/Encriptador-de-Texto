@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="imagenes/Cat64.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&family=Honk&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="https://www.aluracursos.com/"><img class="logo-alura" src="imagenes/Logo.png" alt="Alura Logotipo"></a>
+        <h1 class="Titulo">Encriptador de Texto</h1>
+        <img class="logo-yeral" src="imagenes/Yeraldo.png" alt="logo-YeraldoToledo">
+    </header>
+    <main>
+        <section class="contenido-principal">
+            <textarea class="textoUsuario" placeholder="Ingrese El Texto Aqui" cols="30" rows="10"></textarea>
+            <div class="exclamacion-informacion">
+                <p class="exclamacion">! </p>
+                <p class="informacion"> Solo Letras Minusculas y Sin Acentos</p>
+            </div>
+            <div class="botones">
+                <button class="cifrar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="descifrar" onclick="botonDesencriptar()">Desencriptar</button>
+                <button class="limpiar" onclick="botonBorrar()">Borrar</button>
+            </div>
+        </section>
+        <section class="contenido-secundario">
+            <textarea class="area-texto" cols="30" rows="10"></textarea>
+            <button class="copiar"onclick="botonCopiar()">Copiar</button>
+        </section>
+    </main>
+    
+    <footer>
+        <a class="linkedin" href="https://www.linkedin.com/in/yeraldotoledo/"><img class="imagenes-footer"  src="imagenes/Linkedin.png" alt="Icono Linkedin"></a>
+        <a class="github" href="https://github.com/Yherall"><img class="imagenes-footer" src="imagenes/github-logo.png" alt="Icono de Github"></a>
+        <p class="copyrigth"> &copy Designed By Yeraldo Toledo, Grupo 6, ONE Alura Latam - Oracle 2024</p>
+        <a class="email" href="mailto:yeraldotoledo@gmail.com" alt="Email"><button class="correo"><img class="imagenes-footer" src="imagenes/Email.png" alt="imagen de correo"> Enviame un Correo </button></a>
+        <img class="logo-gato" src="imagenes/Cat64.png" alt="Logo Cat64">
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
