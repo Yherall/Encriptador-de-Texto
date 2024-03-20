@@ -73,7 +73,7 @@ main{
     border-radius: 24px;
     background: #00ffcd21;
     caret-color: tomato;
- 
+    text-transform: lowercase;
     resize: none;
 }
 
